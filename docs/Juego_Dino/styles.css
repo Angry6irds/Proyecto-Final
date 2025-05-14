@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.game-container {
+    text-align: center;
+}
+
+canvas {
+    background: #f0f0f0;
+    border: 2px solid #333;
+}
+
+.hud {
+    margin-top: 10px;
+}
+
+button {
+    margin-left: 20px;
+    padding: 5px 10px;
+}
