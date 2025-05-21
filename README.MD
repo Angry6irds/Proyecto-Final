@@ -5,6 +5,6 @@
 
 ## Enlaces del Proyecto
 
-- 🌐 [Sitio web del proyecto](https://angry6irds.github.io/Juego_Dino/)
+- 🌐 [Sitio web del proyecto](https://angry6irds.github.io/Juego_Dino/index.html#acerca)
 - 💬 [Conversación con ChatGPT](https://chatgpt.com/share/682e2b57-6fd4-8005-9cd1-dd9a72672815)
 - 📄 [Prompt (prompt.md)](/docs/Juego_Dino/prompt.md)
