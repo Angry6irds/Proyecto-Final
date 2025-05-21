@@ -20,7 +20,7 @@ body {
 }
 
 body {
-  background-image: url(/docs/Imagenes/Dino.png);
+  background-image: url(../Imagenes/Dino.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -30,7 +30,7 @@ body {
 
 
 .dark-mode {
-  background-image: url(/docs/Imagenes/Dino_Noche.png);
+  background-image: url(../Imagenes/Dino_Noche.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
