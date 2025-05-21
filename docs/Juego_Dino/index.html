@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Dino Runner</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dino Runner</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="game-container">
-        <h1>Dino Runner</h1>
-        <canvas id="gameCanvas" width="800" height="200"></canvas>
-        <div class="hud">
-            <span id="score">Puntaje: 0</span>
-            <span id="highScore">Récord: 0</span>
-            <button id="toggleTheme">Modo Oscuro</button>
-        </div>
-    </div>
-    <script src="script.js"></script>
+  <nav class="navbar">
+    <a href="#inicio">Inicio</a>
+    <a href="#historia">Historia</a>
+    <a href="#mecanicas">Mecánicas</a>
+    <a href="#acerca">Acerca</a>
+    <button id="toggleTheme">🌙</button>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h1>Dino Runner</h1>
+      <canvas id="gameCanvas" width="800" height="200"></canvas>
+     <div class="score-container">
+  <span id="score">Puntaje: 0</span>
+  <span id="highScore">Récord: 0</span>
+</div>
+
+<div id="controls">
+  <button id="playBtn">▶️ Jugar</button>
+  <button id="restartBtn" style="display: none;">🔄 Reiniciar</button>
+</div>
+    </section>
+
+    <section id="historia">
+      <h2>Historia</h2>
+      <p>El juego fue creado en 2014 por Sebastien Gabriel, Alan Bettes y Edward Jung, miembros de Chrome UX. Durante el desarrollo, el juego recibió el nombre en clave de "Project Bolan", en referencia al cantante principal Marc Bolan de la banda de los 70 T. Rex. El juego se lanzó en septiembre de 2014, pero falló en el rendimiento de los dispositivos más antiguos. El código del juego fue reescrito y relanzado en diciembre de 2014. Los pterodáctilos se agregaron como obstáculos en 2015. Cuatro años después, el juego celebró su cuarto cumpleaños con decoración temática.</p>
+    </section>
+
+    <section id="mecanicas">
+      <h2>Mecánicas</h2>
+      <ul>
+        <li>El dinosaurio corre automáticamente.</li>
+        <li>Salta con la tecla <strong>Espacio</strong>.</li>
+        <li>Esquiva cactus y obstáculos que se generan aleatoriamente.</li>
+        <li>La velocidad aumenta con el tiempo.</li>
+        <li>Se guarda el récord de puntaje en localStorage.</li>
+      </ul>
+    </section>
+
+    <section id="acerca">
+      <h2>Acerca</h2>
+      <p>Proyecto realizado por Alejandro Limón Pérez como entrega final de la materia de Desarrollo Web. Este sitio integra conocimientos de HTML, CSS, JavaScript, responsive design y uso de la API de Canvas.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
